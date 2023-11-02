@@ -61,6 +61,10 @@ public struct BinarySwitchView: View {
             }
         }
     }
+    
+    public init(modelData: SevenSegment) {
+        self.modelData = modelData
+    }
 }
 
 #Preview {

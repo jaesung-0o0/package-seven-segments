@@ -58,6 +58,10 @@ public struct SevenSegmentView: View {
                 .border(.tint, width: 1)
         }
     }
+    
+    public init(modelData: SevenSegment) {
+        self.modelData = modelData
+    }
 }
 
 #Preview {

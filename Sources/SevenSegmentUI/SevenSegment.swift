@@ -79,4 +79,8 @@ public class SevenSegment: ObservableObject {
         !switch2 && switch3 ||
         switch4
     }
+    
+    public init() {
+        
+    }
 }
