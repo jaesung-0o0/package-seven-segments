@@ -18,3 +18,11 @@ struct ContentView: View {
     }
 }
 ```
+
+## 스위프트 패키지를 코코아팟에 배포하기
+
+`.podspec` 파일에 spec의 source_files 를 `"Sources/{모듈이름}/**/*"` 으로 설정 
+
+```shell
+spec.source_files  = "Sources/SevenSegmentUI/**/*"
+```
